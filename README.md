@@ -18,8 +18,22 @@ Unlike standard drowsiness detectors, Astromind uses **Multimodal Bio-Fusion**�
 5. Select the Python interpreter (usually the one labeled "Recommended" or the highest version number like 3.12.x). [Crucial Step: You will see a list of files. Check the box next to requirements.txt.]
 6. Click "OK" or "Create".
 
-## Quick Start
-1. Clone this repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Launch the sensor: `python app.py`
+## How to Run
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/vi6yav/astromind-app.git](https://github.com/vi6yav/astromind-app.git)
+    cd astromind-app
+    ```
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Initiate System**
+    ```bash
+    python app.py
+    ```
+
+## ⚠️ Disclaimer
+This project is a prototype for aerospace applications. While designed for high-accuracy detection, it is currently a demonstration of vision-based biometrics.
 
